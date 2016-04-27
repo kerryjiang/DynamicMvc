@@ -1,0 +1,28 @@
+{
+  "name": "DynamicMvc",
+  "version": "1.0.0-*",
+  "compilationOptions": {
+    "emitEntryPoint": false
+  },
+  "dependencies": {
+    "Microsoft.AspNetCore.Diagnostics": "1.0.0-*",
+    "Microsoft.AspNetCore.Mvc": "1.0.0-*",
+    "Microsoft.AspNetCore.Mvc.TagHelpers": "1.0.0-*",
+    "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "1.0.0-*",
+    "Microsoft.EntityFrameworkCore": "1.0.0-*",
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.0.0-rc2-*"
+    }
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": [
+        "portable-net45+wp80+win8+wpa81+dnxcore50",
+        "portable-net45+win8+wp8+wpa81",
+        "portable-net45+win8+wp8",
+        "portable-net45+win8"
+      ]
+    }
+  }
+}
